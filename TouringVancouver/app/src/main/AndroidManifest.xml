@@ -18,9 +18,12 @@
         <activity
             android:name=".FoodsActivity"
             android:label="@string/foodsCategory" />
-        <activity android:name=".ParksActivity" />
-        <activity android:name=".BeachesActivity" />
-        <activity android:name=".GamesActivity"></activity>
+        <activity android:name=".ParksActivity"
+            android:label="@string/parksCategory"/>
+        <activity android:name=".BeachesActivity"
+            android:label="@string/beachesCategory"/>
+        <activity android:name=".GamesActivity"
+            android:label="@string/gamesCategory"/>
     </application>
 
 </manifest>

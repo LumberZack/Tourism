@@ -21,5 +21,32 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(foodsIntent);
             }
         });
+
+        TextView games = (TextView) findViewById(R.id.games);
+        games.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent gamesIntent = new Intent(MainActivity.this, GamesActivity.class);
+                startActivity(gamesIntent);
+            }
+        });
+
+        TextView parks = (TextView) findViewById(R.id.parks);
+        parks.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent parksIntent = new Intent(MainActivity.this, ParksActivity.class);
+                startActivity(parksIntent);
+            }
+        });
+
+        TextView beaches = (TextView) findViewById(R.id.beaches);
+        beaches.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent beachesIntent = new Intent(MainActivity.this, BeachesActivity.class);
+                startActivity(beachesIntent);
+            }
+        });
     }
 }

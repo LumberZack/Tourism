@@ -5,4 +5,61 @@
     <string name="parksCategory">Beautiful Parks</string>
     <string name="beachesCategory">Beaches Everywhere</string>
     <string name="gamesCategory">Entertainment Galore</string>
+    
+    //Beaches
+    <string name="wreck">Wreck Beach is a popular clothing-optional beach 
+        located in Pacific Spirit Regional Park, which is in turn part of 
+        the University Endowment Lands just west of Vancouver, British 
+        Columbia, Canada.</string>
+    <string name="jericho">A Vancouver beach located west of the seaside 
+        neighbourhood of Kitsilano. It is surrounded by Jericho Beach Park, 
+        a grassy area with a pond, which is a picnic destination.</string>
+    <string name="kits">Kitsilano Beach is one of the most popular beaches 
+        in Vancouver, especially in the warm summer months. Located at the 
+        north edge of the Kitsilano neighbourhood, the beach faces out onto 
+        Burrard Inlet.</string>
+    <string name="english_bay">English Bay is located in Vancouver, British
+        Columbia, Canada, west of the downtown peninsula and False Creek. It
+        consists of the south side of the Burrard Inlet, extending from Point
+        Grey in the southwest to Prospect Point in the northeast.</string>
+
+    //Parks
+    <string name="stanley">Stanley Park is a 405-hectare public park that 
+        borders the downtown of Vancouver in British Columbia, Canada and 
+        is almost entirely surrounded by waters of Vancouver Harbour and 
+        English Bay.</string>
+    <string name="central">Central Park is a 90-hectare urban park in
+        Burnaby, British Columbia, founded in 1891. The park is on the
+        Vancouver-Burnaby border, just west of the Metropolis.</string>
+    <string name="grandview">Always bursting with activity, Grandview Park
+        is often the site of community activities, from picnics and plays
+        to festivals and concerts. In 2011, the park was upgraded with a new
+        playground, pathways, stage, sport court, field house with accessible
+        washrooms, lawns, gardens and restored cenotaph area.</string>
+    <string name="trout_lake">Great place for dog walks, hang outs, romantic
+        strolls, clearing your head, taking in the people and sounds and
+        beauty of Trout Lake is a perfect way to spend some hours</string>
+
+    //Games
+    <string name="rio">The Rio Theatre is an independent, multidisciplinary
+        art house in Vancouver, BC, Canada, built in 1938.</string>
+    <string name="fly_over_canada">FlyOver Canada is an amazing virtual
+        flight ride in which you will “take off” into a huge domed screen
+        to enjoy a breathtaking flight across Canada’s most spectacular
+        sights.</string>
+    <string name="science">Science World at Telus World of Science,
+        Vancouver is a science centre run by a not-for-profit organization
+        in Vancouver, British Columbia, Canada.</string>
+    <string name="aquarium">The Vancouver Aquarium is a public aquarium
+        located in Stanley Park in Vancouver, British Columbia, Canada.</string>
+
+    //Foods
+    <string name="gotham">High-end steaks and an extensive wine list are offered
+        in a snazzy art deco setting with a lounge.</string>
+    <string name="firepizza">Late-night counter-serve nook serving inventive
+        specialty pies and slices in an unfussy interior.</string>
+    <string name="sushiyama">Sushiyama is a popular Japanese Restaurant near
+        ingsway and Broadway. They serve up affordable Japanese dishes.</string>
+    <string name="warehouse">Neighborhood hangout with rustic decor and sports on
+        TV serving burgers, wings and drinks.</string>
 </resources>
