@@ -15,11 +15,10 @@ public class GamesActivity extends AppCompatActivity {
 
         // Create a list of attractions
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("one", "lutti", R.drawable.van));
-        attractions.add(new Attraction("two", "otiiko", R.drawable.van));
-        attractions.add(new Attraction("three", "tolookosu", R.drawable.van));
-        attractions.add(new Attraction("four", "oyyisa", R.drawable.van));
-        attractions.add(new Attraction("five", "massokka", R.drawable.van));
+        attractions.add(new Attraction("Rio Theatre", R.string.rio));
+        attractions.add(new Attraction("Flyover Canada", R.string.fly_over_canada));
+        attractions.add(new Attraction("Science World", R.string.science));
+        attractions.add(new Attraction("Vancouver Aquarium", R.string.aquarium));
 
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
         // The adapter knows how to create list items for each item in the list.

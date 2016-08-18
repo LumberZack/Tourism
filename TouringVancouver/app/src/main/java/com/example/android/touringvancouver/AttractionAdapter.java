@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import java.util.ArrayList;
 
@@ -30,11 +31,17 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         TextView locationTextView = (TextView) listItemView.findViewById(R.id.location);
 
-        locationTextView.setText(currentAttraction.getLocation());
+        locationTextView.setText(currentAttraction.getDetailID());
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-
-        imageView.setImageResource(currentAttraction.getImageID());
+        if (currentAttraction.getImageID() == 0){
+            LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) imageView.getLayoutParams();
+            params.weight = 0.0f;
+            imageView.setLayoutParams(params);
+        }
+        else{
+            imageView.setImageResource(currentAttraction.getImageID());
+        }
 
         return listItemView;
     }
