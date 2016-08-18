@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Touring Vancouver</string>
+    <string name="title_activity_category_page">CategoryPage</string>
 </resources>
