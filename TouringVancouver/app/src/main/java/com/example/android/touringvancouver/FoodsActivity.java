@@ -15,10 +15,10 @@ public class FoodsActivity extends AppCompatActivity {
 
         // Create a list of attractions
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Gotham Steakhouse", R.string.gotham));
-        attractions.add(new Attraction("Sushiyama", R.string.sushiyama));
-        attractions.add(new Attraction("Fire Pizza", R.string.firepizza));
-        attractions.add(new Attraction("The Famous Warehouse", R.string.warehouse));
+        attractions.add(new Attraction(R.string.gothamName, R.string.gotham));
+        attractions.add(new Attraction(R.string.SushiyamaName, R.string.sushiyama));
+        attractions.add(new Attraction(R.string.firePizzaName, R.string.firepizza));
+        attractions.add(new Attraction(R.string.warehouseName, R.string.warehouse));
 
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
         // The adapter knows how to create list items for each item in the list.

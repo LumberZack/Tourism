@@ -59,7 +59,32 @@
     <string name="firepizza">Late-night counter-serve nook serving inventive
         specialty pies and slices in an unfussy interior.</string>
     <string name="sushiyama">Sushiyama is a popular Japanese Restaurant near
-        ingsway and Broadway. They serve up affordable Japanese dishes.</string>
+        Kingsway and Broadway. They serve up affordable Japanese dishes.</string>
     <string name="warehouse">Neighborhood hangout with rustic decor and sports on
         TV serving burgers, wings and drinks.</string>
+    
+    //Foods Names
+    <string name="gothamName">Gotham Steakhouse</string>
+    <string name="firePizzaName">Fire Pizza</string>
+    <string name="SushiyamaName">Sushiyama</string>
+    <string name="warehouseName">The Famous Warehouse</string>
+    
+    //Games Names
+    <string name="FlyOverName">Flyover Canada</string>
+    <string name="SciWorldName">Science World</string>
+    <string name="aquaName">The Vancouver Aquarium</string>
+    <string name="rioName">The Rio Theatre</string>
+    
+    //Parks Names
+    <string name="stanleyName">Stanley Park</string>
+    <string name="grandName">Grandview Park</string>
+    <string name="centralName">Central Park</string>
+    <string name="troutName">Trout Lake Park</string>
+    
+    //Beaches Names
+    <string name="wreckName">Wreck Beach</string>
+    <string name="kitsName">Kitsilano Beach</string>
+    <string name="engName">English Bay Beach</string>
+    <string name="jeriName">Jericho Beach</string>
+    
 </resources>

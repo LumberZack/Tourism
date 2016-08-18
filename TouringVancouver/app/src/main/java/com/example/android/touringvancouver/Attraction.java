@@ -5,25 +5,25 @@ package com.example.android.touringvancouver;
  */
 public class Attraction {
 
-    private String mName;
+    private int mNameID;
 
     private int mDetailID;
 
     private int mImageID = 0;
 
-    public Attraction (String name, int detailID, int imageID){
-        mName = name;
+    public Attraction (int nameID, int detailID, int imageID){
+        mNameID = nameID;
         mDetailID = detailID;
         mImageID = imageID;
     }
 
-    public Attraction (String name, int detailID){
-        mName = name;
+    public Attraction (int nameID, int detailID){
+        mNameID = nameID;
         mDetailID = detailID;
 
     }
 
-    public String getName(){ return mName; }
+    public int getName(){ return mNameID; }
 
     public int getDetailID(){ return mDetailID; }
 

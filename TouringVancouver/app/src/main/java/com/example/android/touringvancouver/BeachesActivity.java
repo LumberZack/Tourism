@@ -15,10 +15,10 @@ public class BeachesActivity extends AppCompatActivity {
 
         // Create a list of attractions
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Wreck Beach", R.string.wreck, R.drawable.wreck_beach));
-        attractions.add(new Attraction("Jericho Beach", R.string.jericho, R.drawable.jericho_beach));
-        attractions.add(new Attraction("Kits Beach", R.string.kits, R.drawable.kits_beach));
-        attractions.add(new Attraction("English Bay", R.string.english_bay, R.drawable.english_bay_beach));
+        attractions.add(new Attraction(R.string.wreckName, R.string.wreck, R.drawable.wreck_beach));
+        attractions.add(new Attraction(R.string.jeriName, R.string.jericho, R.drawable.jericho_beach));
+        attractions.add(new Attraction(R.string.kitsName, R.string.kits, R.drawable.kits_beach));
+        attractions.add(new Attraction(R.string.engName, R.string.english_bay, R.drawable.english_bay_beach));
 
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
         // The adapter knows how to create list items for each item in the list.
