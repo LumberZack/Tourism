@@ -15,8 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FoodsActivity"
-            android:label="Foods"/>
+        <activity
+            android:name=".FoodsActivity"
+            android:label="@string/foodsCategory" />
+        <activity android:name=".ParksActivity" />
+        <activity android:name=".BeachesActivity" />
+        <activity android:name=".GamesActivity"></activity>
     </application>
 
 </manifest>

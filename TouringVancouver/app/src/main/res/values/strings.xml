@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Touring Vancouver</string>
     <string name="title_activity_category_page">CategoryPage</string>
+    <string name="foodsCategory">Best Food in Town</string>
+    <string name="parksCategory">Beautiful Parks</string>
+    <string name="beachesCategory">Beaches Everywhere</string>
+    <string name="gamesCategory">Entertainment Galore</string>
 </resources>
