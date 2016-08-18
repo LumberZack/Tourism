@@ -7,24 +7,24 @@ public class Attraction {
 
     private String mName;
 
-    private String mDescription;
+    private String mLocation;
 
     private int mImageID;
 
-    public Attraction (String name, String description, int imageID){
+    public Attraction (String name, String location, int imageID){
         mName = name;
-        mDescription = description;
+        mLocation = location;
         mImageID = imageID;
     }
 
     public Attraction (String name, String description){
         mName = name;
-        mDescription = description;
+        mLocation = description;
     }
 
     public String getName(){ return mName; }
 
-    public String getDescription(){ return mDescription; }
+    public String getLocation(){ return mLocation; }
 
     public int getImageID(){ return mImageID; }
 }
